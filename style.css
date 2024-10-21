@@ -213,13 +213,17 @@ header {
 
 /* ----------------------------------------------------*/
 
-.timeline {
-    /* position: relative; */
+/* Remove Timeline!!!!! */
 
-    /* display: flex; */
-    /* flex-direction: column; */
+.timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
+
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
 
     margin-top: 30px;
     background-color: white;
@@ -229,33 +233,8 @@ header {
     border-radius: 5px;
 }
 
-.timeline-container {
-    position: relative;
-    /* max-width: 1200px; */
-    margin: 100px auto;
-}
 
-.container {
-    padding: 10px 50px;
-    position: relative;
-    width: 50%;
-    background: rgba(0,0,0,0.3);
-}
 
-.content {
-    /* padding: 20px 30px; */
-    background: #fff;
-    position: relative;
-    border-radius: 6px;
-}
-
-.left {
-    left: 0;
-}
-
-.right {
-    left: 50%;
-}
 
 
 
